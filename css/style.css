@@ -40,6 +40,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
+    color: black;
 }
 
 h4 {
@@ -62,6 +63,10 @@ h4:before {
     background: #425BB5;
     top: 9px;
 }
+
+#home h4 {
+    color: #4f28ab; /* Replace this with any color you want */
+  }
 
 
 /* General
@@ -249,7 +254,7 @@ nav li {
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #0f0101;
+    color: #000000;
     font-size: 11px;
     font-weight: bold;
 }
@@ -264,7 +269,7 @@ nav li a {
 }
 
 a:focus {
-    color: #444;
+    color: #0c0808;
     text-decoration: none;
 }
 
@@ -282,7 +287,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background-color: #45523e;
+    background-color: #7ba266;
     background-size: cover;
     height: 100vh;
 }
@@ -311,7 +316,7 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid #425BB5;
+    border: 10px solid #3925c0;
     width: 400px;
     height: 400px;
     top: 40px;
@@ -631,13 +636,15 @@ a.active {
 /* contact
 ==================================================*/
 
+
 .contact-form {
-    width: 100%;
+    width: 400%;
     max-width: 600px;
     margin: 0 auto;
     background: #f1f1f1;
     padding: 20px;
     box-sizing: border-box;
+    
   }
   
   .contact-form input,
@@ -648,6 +655,7 @@ a.active {
     border: 1px solid #ccc;
     font-size: 16px;
     box-sizing: border-box;
+    align: center;
   }
   
   .contact-form textarea {
@@ -670,6 +678,8 @@ a.active {
   .contact-form button:hover {
     background-color: #324fa1;
   }
+
+
   
 
 
